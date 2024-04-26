@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfoglio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantata+One&family=Lunasima:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="./img/cplogo.png" alt="mylogo">
+        <ul class="nav-menu">
+            <li>
+                <a href="#home" class="nav__button">Home</a>
+            </li>
+            <li>
+                <a href="#about" class="nav__button">About</a>
+            </li>
+            <li>
+                <a href="#skill-section" class="nav__button">Skills</a>
+            </li>
+            <li>
+                <a href="#contact" class="nav__button">Contacts</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="header" id="home">
+        <div class="header-intro"></div>
+    </main>
+    <br>
+    <header id="about" class="about">
+        <div class="about-description">
+            <img src="./img/171A1082.jpg" alt="akoyan" class="about-img">
+            <div class="about-title">
+                <h3 class="about-intro">Hello, I'm</h3>
+                <strong class="about-name">Mark Vincent Pineda</strong>
+            </div>
+            <div class="about-description-description">
+                <p><strong>Name:</strong> Mark Vincent Pineda</p>
+                <p><strong>Age:</strong> 22 yrs/o</p>
+                <p><strong>Address:</strong> Florence, Italy</p>
+                <p><strong>Email:</strong></p>
+                <p><a href="mailto:rlpineda81@gmail.com">rlpineda81@gmail.com</a></p>
+            </div>
+            <div class="about-container">
+                <div class="about-card">
+                    <div class="about-card-description">
+                        <h4 class="about-card-description-title">Web Developer Student</h4>
+                        <p class="about-card-description-body">I'm studying full-stack Web Development with a passion
+                            for
+                            Front-end and Design.
+                            I enrolled at
+                            Uplift
+                            Code Camp, a coding bootcamp based in the Philippines, I am currently living in Italy while
+                            studying
+                            Web Development. I aspire toward a career that will allow me to challenge myself through
+                            learning
+                            new technologies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <section class="resume-box" id="resume">
+        <button class="button__1">
+            <a href="./img/CV.pdf" target="_blank" class="link__button">View My Resume</a>
+        </button>
+        </div>
+    </section>
+    <br>
+    <section id="skill-section" class="skill__card">
+        <h2 class='skill-title'>Skills</h2>
+        <div class="skill__content">
+            <div class="skill">
+                <div class="skill__title">
+                    <h3>HTML</h3>
+                    <img src="./img/html3d.webp" alt="hmtl" class="img__html">
+                    <p>25%</p>
+                </div>
+                <div class="bar bar-HTML"></div>
+
+                <div class="skill__title">
+                    <h3>CSS</h3>
+                    <img src="./img/3dcss.webp" alt="css" class="img__css">
+                    <P>25%</P>
+                </div>
+                <div class="bar bar-CSS"></div>
+                <div class="skill__title">
+                    <h3>ADOBE PREMIERE & AUDITION</h3>
+                    <img src="./img/pro.png" alt="premiere pro" class="img__adobe">
+                    <img src="./img/aud.png" alt="premiere audition" class="img__adobe">
+                    <P>80%</P>
+                </div>
+                <div class="bar bar-ADOBE"></div>
+            </div>
+    </section>
+    <br>
+    <section class="contact-container" id="contact">
+        <form method=POST action="mailto:rlpineda81@gmail.com" enctype="text/plain" class="form__section">
+            <label for="name" class="name__section">Name</label>
+            <br>
+            <input type="text" name="Name" id="name" value="Enter Name">
+            <br>
+            <label for="email" class="email__section">Email</label>
+            <br>
+            <input type="email" name="email" id="email" value="Enter Email">
+            <br>
+            <label class="message__section">Message</label>
+            <textarea id="w3review" name="w3review" rows="7" cols="30" value="enter message"
+                class="text__area"></textarea>
+            <br>
+            <input type="submit" name="Submit">
+        </form>
+    </section>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-icon">
+                <a href="https://www.facebook.com/Realpineda92/" target="_blank"> <img src="./img/fb.png" alt="fb-icon">
+                </a>
+                <a href="https://www.instagram.com/vncnzo_1130/" target="_blank"> <img src="./img/ig.png"
+                        alt="ig-icon"></a>
+                <a href="https://www.linkedin.com/in/mark-vincent-pineda-04748a253/" target="_blank"> <img
+                        src="./img/li.png" alt="linkedin-icon"></a>
+                <a href="https://gitlab.com/Vcnzo1130/" target="_blank" class="gitlab-icon"><img src="./img/gl.png"
+                        alt="gitlab-icon"> </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

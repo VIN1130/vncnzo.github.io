@@ -1,0 +1,515 @@
+@media only screen and (min-width: 320px) {
+
+    * {
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .navbar {
+        position: fixed;
+        background: linear-gradient(to right, white, #343434);
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        top: 0;
+        z-index: 1;
+    }
+
+    .navbar img {
+        width: 30%;
+        height: 100%;
+        opacity: 90;
+    }
+
+    .nav-menu {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+    }
+
+    .nav-menu a {
+        color: black;
+        text-decoration: none;
+        margin-right: 8px;
+        font-size: 0.9rem;
+        text-shadow: 1px 1px white;
+    }
+
+    /*header*/
+
+    .header {
+        display: flex;
+        background-image: url(./img/PHONE\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 100%;
+        height: 30rem;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    /*about*/
+
+    .about {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        font-family: Lunasima, sans-serif;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px
+    }
+
+    .about-title {
+        text-align: center;
+    }
+
+
+    .about-name {
+        font-size: 1.40rem;
+    }
+
+    .about-card {
+        background-color: white;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 2px 5px 8px black;
+        padding: 20px
+    }
+
+    .about-card-description-title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .about-card-description-body {
+        font-size: 0.875rem
+    }
+
+    .about-description {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: .90rem;
+    }
+
+    .about-img {
+        width: 160px;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        object-position: top;
+        border: 1px solid blue;
+    }
+
+    /*Resume section*/
+
+    .resume-box {
+        display: flex;
+        width: 200px;
+        height: 30px;
+        margin-top: 20px;
+    }
+
+    .resume-container {
+        display: flex;
+    }
+
+    .button__1 {
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .link__button {
+        text-decoration: none;
+        font-weight: 900;
+    }
+
+    /* skills */
+
+    .skill {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .skill-title {
+        text-align: center;
+        color: #444444;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+
+    .skill__title img {
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+    }
+
+    .skill h3 {
+        font-size: 0.8rem;
+    }
+
+    .skill__title h3 {
+        text-align: center;
+    }
+
+    .skill__title p {
+        text-align: center;
+    }
+
+    .skill__card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+        line-height: 30px;
+    }
+
+    .img__adobe {
+        margin-left: 30px;
+    }
+
+    .skill__card h2 {
+        background: #bcbcbc;
+        padding: 10px;
+    }
+
+    .skill__content {
+        background: #e7e7e7;
+        padding: 0 10px 10px 10px;
+    }
+
+    .bar {
+        width: 100%;
+        height: 16px;
+        background: #dcdedd;
+    }
+
+    .bar-HTML::after {
+        content: '';
+        display: block;
+        width: 25%;
+        height: 100%;
+        background: #02a9f7;
+        animation: bar-HTML 7s infinite;
+    }
+
+    .bar-CSS::after {
+        content: '';
+        display: block;
+        width: 25%;
+        height: 100%;
+        background: #02a9f7;
+        animation: bar-CSS 7s infinite;
+    }
+
+    .bar-ADOBE::after {
+        content: '';
+        display: block;
+        width: 80%;
+        height: 100%;
+        background: #02a9f7;
+        animation: bar-ADOBE 7s infinite;
+    }
+
+    @keyframes bar-HTML {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 25%;
+        }
+    }
+
+    @keyframes bar-CSS {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 25%;
+        }
+    }
+
+    @keyframes bar-ADOBE {
+        from {
+            width: 0
+        }
+
+        to {
+            width: 80%
+        }
+    }
+
+    /*contact*/
+
+    .contact-container {
+        display: flex;
+        margin-top: 300px;
+        width: 100%;
+        padding: 10px;
+        background-color: #343434;
+    }
+
+    .form__section {
+        display: grid;
+        grid-template-columns: auto;
+        top: 10px;
+        padding: 38px;
+    }
+
+    .contact-description {
+        display: flex;
+        color: white;
+        font-size: large;
+        width: 500px;
+        height: 20px;
+    }
+
+
+    .grid__form {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .name__section {
+        display: flex;
+        color: white;
+    }
+
+    .email__section {
+        display: flex;
+        color: white;
+    }
+
+    .message__section {
+        color: white;
+
+    }
+
+    .text__area {
+        color: white;
+    }
+
+    .input__area {
+        display: flex;
+    }
+
+    .submit-button {
+        display: flex;
+        width: 60px;
+        left: 80px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-content {
+        padding: 5px;
+    }
+
+    .footer-content h4 {
+        font-size: 12px;
+    }
+
+    .footer-icon {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .footer .footer-icon img {
+        padding: 3px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer .footer-icon img .gitlab-icon {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width:375px) {
+
+    .navbar img {
+        width: 26%;
+        height: 100%;
+    }
+
+    .header {
+        display: flex;
+        width: 100%;
+        height: 458px;
+        background-size: 731px;
+    }
+}
+
+@media only screen and (min-width:425px) {
+
+    .navbar img {
+        width: 24%;
+        height: 100%;
+    }
+
+    .header {
+        display: flex;
+        background-size: 830px;
+        width: 100%;
+        height: 532px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .navbar img {
+        width: 13%;
+        height: 100%;
+    }
+
+    .header {
+        background-image: url(./img/TABLET\ SIZE.png);
+        background-size: 769px;
+        width: 100%;
+    }
+
+    /*about*/
+
+    .about-description {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill {
+        display: flex;
+        width: 500px;
+    }
+
+    .skill__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .skill__title p {
+        text-align: center;
+        margin: 0;
+    }
+
+    .img__html {
+        margin-left: 120px;
+    }
+
+    .img__css {
+        margin-left: 133px;
+    }
+
+    .footer .footer-icon {
+        width: 50px;
+        height: 40px;
+    }
+
+    .footer-icon img {
+        margin: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .navbar img {
+        width: 90px;
+        height: 100%;
+    }
+
+    .header {
+        background-size: 1022px;
+        width: 100%;
+    }
+
+    .about-description {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 750px;
+    }
+
+    .skill {
+        display: flex;
+        width: 753px;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .nav-menu a {
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 20px;
+        text-shadow: 1px 1px white;
+    }
+
+    .header {
+        background-size: 1438px;
+        width: 209vh;
+        height: 80vh;
+        background-position: center;
+    }
+
+    .about img {
+        width: 200px;
+    }
+
+    .about-title {
+        text-align: center;
+    }
+
+    .about-name {
+        font-size: 2rem;
+    }
+}
+
+
+
+html {
+    background-image: url(./img/wbtbg-transformed.jpeg);
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
